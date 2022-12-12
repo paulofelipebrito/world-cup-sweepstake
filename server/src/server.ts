@@ -18,7 +18,7 @@ async function bootstrap(): Promise<void> {
   await fastify.register(guessRoutes);
   await fastify.register(poolRoutes);
   await fastify.register(userRoutes);
-  await fastify.listen({ port: 3001, host: '0.0.0.0' });
+  await fastify.listen({ port: 3001, host: '127.0.0.1' });
 }
 
 bootstrap().catch(console.error);
