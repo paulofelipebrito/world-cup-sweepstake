@@ -1,0 +1,16 @@
+# Dependencies
+/node_modules
+
+# Debug
+npm-debug.log*
+.pnpm-debug.log*
+
+# Editor
+/.vscode
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+.env
