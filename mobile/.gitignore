@@ -1,0 +1,26 @@
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Dependencies
+/node_modules
+
+# Debug
+npm-debug.log*
+.pnpm-debug.log*
+
+# Editor
+/.vscode
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+.env
